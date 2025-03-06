@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 
 a, b = map(int, input().split())
-total = 9 * 17  # 가능한 카드 조합의 수 (9에서 17까지의 카드 조합)
+total = 153  # 가능한 카드 조합의 수 
 ans = 0  # 영학이가 이길 수 있는 경우의 수
 if a == b:
     ans = total - (10 - a)
